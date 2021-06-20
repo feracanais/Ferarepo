@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.Ferarepo" name="FeraCanais REPO" version="1.0" provider-name="EQUIPE FERA CANAIS">
+<addon id="repository.Ferarepo" name="[B]REPO[COLOR orange] FERA[/COLOR][COLOR white]CANAIS[/COLOR][/B]" version="1.0" provider-name="EQUIPE FERA CANAIS">
     <extension point="xbmc.addon.repository" name="Nome Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/feracanais/Ferarepo/master/zips/addons.xml</info>
