@@ -8,7 +8,7 @@
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>FeraCanais REPO</summary>
+        <summary>[B]REPO[COLOR orange] FERA[/COLOR][COLOR white]CANAIS[/COLOR][/B]</summary>
         <description>Repositório Oficial do Addon Fera Canais</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
