@@ -1,0 +1,38 @@
+<addons>
+<addon id="plugin.video.FeraCanais18"
+       name="[B][COLOR orange]FERA[/COLOR] [COLOR white]CANAIS[/COLOR][/B]"
+       version="1.1.0"
+       provider-name="[B][COLOR blue]https://www.facebook.com/FeraCanais[/COLOR][/B]">
+
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR orange]| [/COLOR]TV,FILMES E SERIES[COLOR orange] |[/COLOR][COLOR orange] [/COLOR]TORRENT E WEB[COLOR orange] |[/COLOR]</summary>
+    <description lang="en">[B][COLOR orange] FERA CANAIS [/COLOR][/B][B][COLOR white] é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</description>
+    <disclaimer lang="en"></disclaimer>
+	<news>
+[B][COLOR orange]VERSÃO 1.1.0 - ATUALIZAÇÕES DE SEGURANÇA[/COLOR][/B]
+</news>
+    <platform>all</platform>
+	<assets>
+<icon>icon.png</icon>
+<fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.png</screenshot>
+<screenshot>resources/screenshots/movies.png</screenshot>
+<screenshot>resources/screenshots/series.png</screenshot>
+</assets>
+  </extension>
+</addon>
+
+</addons>

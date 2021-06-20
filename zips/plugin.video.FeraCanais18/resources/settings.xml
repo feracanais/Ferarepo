@@ -1,0 +1,14 @@
+﻿<settings>
+	<category label="[B].([COLOR orange].[/COLOR])[/B]">
+	<setting id="msg1" value="true" type="bool" default="false"/>
+	<setting id="msg2" value="true" type="bool" default="false"/>
+	<setting id="msg3" value="true" type="bool" default="false"/>
+	<setting id="use_thumb" type="bool" visible="false" default="false" />
+	<setting id="add_playlist" type="bool" visible="false" default="true"/>
+	<setting id="ask_playlist_items" type="bool" visible="false" default="true" />
+	<setting id="debug" type="bool" visible="false" default="false"/>
+	<setting id="genesisorpulsar" type="enum" values="Genesis|Pulsar" label="Play IMDBid com:" visible="false" default="Genesis"/>
+	<setting id="donotshowbychannels" type="bool" visible="false" default="false"/>
+	</category>
+</settings>
+
